@@ -57,7 +57,7 @@ $(document).ready(function () {
         }, 500)
     })
 
-    /* SEÇÃO SOBRE NÓS */
+    /* SEÇÃO DÚVIDAS */
 
     function mostrarResposta(elementoResposta) {
         if (elementoResposta.is(':visible')) {
@@ -87,12 +87,12 @@ $(document).ready(function () {
         }, 500)
     })
 
-    /* SEÇÃO SOBRE NÓS */
+    /* SEÇÃO CONTATO */
 
     $("#campo-cpf").mask("000-000-000.00");
     $("#campo-telefone").mask("(00) 00000-0000");
 
-    /* SEÇÃO SOBRE NÓS */
+    /* MENU MOBILE */
 
     $(".menu-hamburguer").click(function(){
         $(".container-menu").slideToggle();

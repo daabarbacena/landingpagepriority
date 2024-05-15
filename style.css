@@ -346,26 +346,23 @@ section.comoFunciona {
 /* SECTION CONTATO */
 
 .section-contato {
-    height: 55vw;
+    height: 85vw;
     display: flex;
     background-color: #060606;
     align-items: center;
 }
 
 .container-contato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
 }
 
 .container-contato-titulo {
     flex-direction: column;
     text-align: center;
-}
-
-.container-contato-titulo-textos {
-    float: left;
-    margin-left: 10vw;
 }
 
 .container-contato-titulo h1 {
@@ -412,7 +409,6 @@ section.comoFunciona {
     height: 30vw;
     padding: 2vw;
     width: 25vw;
-    margin-left: 5vw;
 }
 
 .input-container {
@@ -426,6 +422,10 @@ section.comoFunciona {
 
 .ic2 {
     margin-top: 1.8vw;
+}
+
+.ic3 {
+    position: relative;
 }
 
 .input {
@@ -456,7 +456,7 @@ section.comoFunciona {
     font-size: 1.3vw;
     font-weight: 700;
     height: 4vw;
-    margin-top: 3vw;
+    margin-top: 1vw;
     text-align: center;
     width: 100%;
 }
@@ -469,6 +469,137 @@ section.comoFunciona {
 .submit:active {
     background-color: #89cf3e;
 }
+
+.mapBox {
+    margin-top: 3vw;
+}
+
+.mapBox iframe {
+    width: 80%;
+}
+
+.contatosection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.contatotextos h1 {
+    color: #f5f5f5;
+}
+
+.socialcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+}
+
+.example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+}
+
+.example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.example-2 .icon-content a:hover {
+    color: white;
+}
+
+.example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover .filled {
+    height: 100%;
+}
+
+.example-2 .icon-content a[data-social="discord"] .filled,
+.example-2 .icon-content a[data-social="discord"]~.tooltip {
+    background-color: #7289da;
+}
+
+.example-2 .icon-content a[data-social="steam"] .filled,
+.example-2 .icon-content a[data-social="steam"]~.tooltip {
+    background-color: #171d25;
+}
+
+.example-2 .icon-content a[data-social="instagram"] .filled,
+.example-2 .icon-content a[data-social="instagram"]~.tooltip {
+    background: linear-gradient(45deg,
+            #405de6,
+            #5b51db,
+            #b33ab4,
+            #c135b4,
+            #e1306c,
+            #fd1f1f);
+}
+
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"]~.tooltip {
+    background-color: #ff0000;
+}
+
 
 /* FOOTER */
 
@@ -487,6 +618,23 @@ footer h2 {
     margin-left: 2vw;
 }
 
+.obrigado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171d25;
+    height: max-content;
+}
+
+.obrigado h2 {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 800;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
 @media screen and (max-width: 640px) {
 
     section.sobre {
@@ -500,7 +648,7 @@ footer h2 {
     .header nav {
         margin: 0;
     }
-    
+
     .header nav h2 {
         display: none;
     }
@@ -821,7 +969,7 @@ footer h2 {
     .container-duvidas-titulo h1 {
         font-size: 5vw;
     }
-    
+
     .container-duvidas-titulo h3 {
         font-size: 3vw;
     }
@@ -933,4 +1081,3 @@ footer h2 {
     }
 
 }
-
