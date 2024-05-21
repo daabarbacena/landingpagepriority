@@ -5,25 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Priority banking - Recupere seu Poder de Compra e Reconstrua sua Saúde Financeira</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/br-segma" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-menu">
-        <div class="conteudo-menu">
-            <nav>
-                <ul>
-                    <li class="sobrenos">Sobre nós</li>
-                    <li class="comofunciona">Como funciona</li>
-                    <li class="duvidas">Dúvidas</li>
-                    <li class="contato">Contato</li>
-                </ul>
-            </nav>
-        </div>
-    </div>
     <section class="sobre">
         <div class="header">
             <div class="container-logo">
@@ -35,22 +24,18 @@
                 <h2 class="duvidas">Dúvidas</h2>
                 <h2 class="contato">Contato</h2>
             </nav>
-            <div class="menu-hamburguer">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        </div>
+
+        <div class="hr">
+            <hr>
         </div>
 
         <div class="container-sobre">
             <h1>Está sofrendo com dívidas?</h1>
-            <h1 style="color: #639e24; margin-bottom: 0.8vw;">Preocupado com o seu score?</h1>
-            <h3>Na Priority Banking, você não é apenas mais um número. Acreditamos que cada cliente é único e merece um
-                atendimento personalizado e humanizado. Por isso, nossa equipe estará ao seu lado em todas as etapas do
-                processo, te orientando e te apoiando com total atenção e profissionalismo.</h3>
-            <h3>Somos uma empresa especializada em reconstruir a saúde financeira dos nossos clientes, aumentar o score
-                e limpar dívidas de forma rápida, eficiente e legal, utilizando a Lei 14.871/2021.</h3>
-            <h3 style="margin-bottom: 0.8vw;">Fundada em 2019, com sede em Goiânia-GO, a Priority Banking já transformou
+            <h1 style="color: #639e24; margin-bottom: 0.8vw; grid-column: 1;">Preocupado com o seu score?</h1>
+            <h3 style="grid-column: 1;">A Priority Banking é uma empresa especializada em auxiliar clientes a reconstruirem sua saúde financeira, limparem dívidas e aumentarem o score de crédito. Através de um atendimento personalizado e humanizado, a equipe da empresa acompanha o cliente em cada etapa do processo, utilizando a Lei 14.871/2021 de forma rápida, eficiente e legal.</h3>
+            <hr id="hr">
+            <h3 style="margin-bottom: 0.8vw; grid-column: 3;">Fundada em 2019, com sede em Goiânia-GO, a Priority Banking já transformou
                 a vida de milhares de pessoas
                 em todo o Brasil, ajudando-as a sair do vermelho e alcançar a tão desejada tranquilidade financeira.
                 Somos uma equipe de profissionais experientes e apaixonados por ajudar pessoas, sempre buscando a melhor
@@ -148,41 +133,11 @@
 
     <section class="section-contato">
         <div class="container-contato">
-
-            <div class="form">
-                <form action="https://formsubmit.co/danielbtm@outlook.com" method="POST">
-                    <div class="input-container ic1">
-                        <label class="iLabel">Nome</label>
-                        <input type="text" class="input" name="nome">
-                    </div>
-                    <div class="input-container ic2">
-                        <label class="iLabel">CPF</label>
-                        <input type="tel" class="input" id="campo-cpf" name="cpf">
-                    </div>
-                    <div class="input-container ic2">
-                        <label class="iLabel">E-mail</label>
-                        <input type="email" class="input" name="email">
-                    </div>
-                    <div class="input-container ic2">
-                        <label class="iLabel">Telefone/Whatsapp</label>
-                        <input type="tel" class="input" id="campo-telefone" name="telefone">
-                    </div>
-                    <div class="input-container ic2">
-                        <label class="iLabel">Valor aproximado das dívidas</label>
-                        <input type="number" class="input" id="campo-dividas" name="dividas">
-                    </div>
-                    <div class="input-container ic3">
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
-                    </div>
-                    <button class="submit" type="submit">Limpe seu nome</button>
-                </form>
-            </div>
-
             <div class="container-contato-titulo">
                 <div class="container-contato-titulo-textos">
                     <h1 style="color: #639e24;">Contato</h1>
                     <h3>Entre em contato conosco</h3>
-                    <h5>Nossa equipe estará à disposição para te atender e esclarecer todas as suas dúvidas.</h5>
+                    <h5>Preencha o formulário para que nossa equipe possa te atender e esclarecer todas as suas dúvidas.</h5>
                     <h4 style="color: #639e24;">Lembre-se:</h4>
                     <h5>A Priority Banking está aqui para te ajudar a reconstruir sua saúde financeira, aumentar seu
                         score e limpar suas dívidas de forma legal, segura e eficaz.</h5>
@@ -190,69 +145,88 @@
                     <img src="images/check-mark (1).png" alt="checkhand">
                 </div>
             </div>
-            <div class="mapBox">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1606.529876004945!2d-49.278790642320025!3d-16.727175241492407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDQzJzM3LjYiUyA0OcKwMTYnNDQuNiJX!5e0!3m2!1spt-BR!2sbr!4v1715704484738!5m2!1spt-BR!2sbr"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
             <div class="contatosection2">
                 <div class="contatotextos">
-                    <h1>Entre em contato conosco</h1>
+                    <h1>Nos acompanhe pelas redes sociais:</h1>
                 </div>
-                <div class="socialcontainer">
-                    <ul class="example-2">
-                        <li class="icon-content">
-                            <a href="https://discord.com/" aria-label="Discord" data-social="discord">
-                                <div class="filled"></div>
-                                <svg viewBox="0 0 16 16" class="bi bi-discord" fill="currentColor" height="16" width="16"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612">
-                                    </path>
-                                </svg>
-                            </a>
-                            <div class="tooltip">Discord</div>
-                        </li>
-                        <li class="icon-content">
-                            <a href="https://store.steampowered.com/" aria-label="Steam" data-social="steam">
-                                <div class="filled"></div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-steam" viewBox="0 0 16 16">
-                                    <path
-                                        d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z">
-                                    </path>
-                                    <path
-                                        d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048">
-                                    </path>
-                                </svg>
-                            </a>
-                            <div class="tooltip">Steam</div>
-                        </li>
-                        <li class="icon-content">
-                            <a href="https://www.instagram.com/" aria-label="Instagram" data-social="instagram">
-                                <div class="filled"></div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-instagram" viewBox="0 0 16 16" xml:space="preserve">
-                                    <path
-                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
-                                        fill="currentColor"></path>
-                                </svg>
-                            </a>
-                            <div class="tooltip">Instagram</div>
-                        </li>
-                    </ul>
+                    <div class="socialcontainer">
+                        <ul class="example-2">
+                            <li class="icon-content">
+                                <a href="https://www.linkedin.com/company/priority-banking-business-ltda/" aria-label="Discord" data-social="discord">
+                                    <div class="filled"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 30 30">
+                                        <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+                                    </svg>
+                                </a>
+                                <div class="tooltip">Linkedin</div>
+                            </li>
+                            <li class="icon-content">
+                                <a href="https://wa.me/5562984145940" aria-label="Steam" data-social="steam">
+                                    <div class="filled"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                        <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <div class="tooltip">Whatsapp</div>
+                            </li>
+                            <li class="icon-content">
+                                <a href="https://www.instagram.com/priority_banking_business/" aria-label="Instagram" data-social="instagram">
+                                    <div class="filled"></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+                                        <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                                    </svg>
+                                </a>
+                                <div class="tooltip">Instagram</div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="mapBox">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1606.529876004945!2d-49.278790642320025!3d-16.727175241492407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDQzJzM3LjYiUyA0OcKwMTYnNDQuNiJX!5e0!3m2!1spt-BR!2sbr!4v1715704484738!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            <div class="form">
+                <form action="https://submit-form.com/O3HkLKPBN" method="POST">
+                    <input
+                        type="hidden"
+                        name="_redirect"
+                        value="http://127.0.0.1:5500/obrigado.html"/>
+                    <div class="input-container ic1">
+                        <label class="iLabel">Nome</label>
+                        <input type="text" class="input" name="nome" required>
+                    </div>
+                    <div class="input-container ic2">
+                        <label class="iLabel">CPF</label>
+                        <input type="tel" class="input" id="campo-cpf" name="cpf" required>
+                    </div>
+                    <div class="input-container ic2">
+                        <label class="iLabel">E-mail</label>
+                        <input type="email" class="input" name="email" required>
+                    </div>
+                    <div class="input-container ic2">
+                        <label class="iLabel">Telefone/Whatsapp</label>
+                        <input type="tel" class="input" id="campo-telefone" name="telefone" required>
+                    </div>
+                    <div class="input-container ic2">
+                        <label class="iLabel">Valor aproximado das dívidas</label>
+                        <input type="number" class="input" id="campo-dividas" name="dividas">
+                    </div>
+                    <div class="input-container ic3">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                    <button class="submit" type="submit">Limpe seu nome</button>
+                </form>
             </div>
         </div>
     </section>
-
-
     <footer>
-        <h2>©2024 Priority Banking Business Limitada - Todos os direitos reservados</h2>
-
+        <div class="footer-texto">
+            <h2>©2024 Priority Banking Business Limitada - Todos os direitos reservados</h2>
+        </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="jquery.mask.min.js"></script>
     <script src="jquery.validate.min.js"></script>
