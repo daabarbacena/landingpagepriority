@@ -731,7 +731,7 @@ section.obrigadosection {
     }
 
     section.sobre {
-        height: 140vw;
+        height: 100vh;
     }
 
     .container-logo img {
@@ -760,12 +760,13 @@ section.obrigadosection {
         flex-direction: column;
         align-items: center;
         width: 80%;
-        margin-top: 10vw;
+        margin-top: 12vw;
     }
 
     section.sobre h3 {
         font-size: 2.7vw;
         text-align: center;
+        width: 70%;
     }
 
     .estou-interessado,
