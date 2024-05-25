@@ -100,6 +100,10 @@ $(document).ready(function () {
 
     /* BOTÃO DE VOLTAR A PAGINA */
 
+    $(button.submit).click(function() {
+        window.location.pathname = "obrigado.html";
+    })
+
 });
 
 
