@@ -473,17 +473,30 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #1a1a1a;
-    height: 40vh;
+    height: 80vh;
 }
 
 .container-footer {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .container-footer img {
     width: 10em;
     cursor: pointer;
+    margin: auto;
+}
+
+.container-footer a {
+    margin: auto;
+}
+
+.container-footer h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 footer h2 {
@@ -542,6 +555,14 @@ section.obrigadosection {
 
 /* Medias querys */
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
 
-@media screen and (min-width: 641px) and (max-width: 1023px) {}
+
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    
+
+}
