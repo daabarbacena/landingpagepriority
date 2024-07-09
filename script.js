@@ -27,36 +27,6 @@ $(document).ready(function () {
         }, 500)
     })
 
-    /* SEÇÃO SOBRE NÓS */
-
-    $("nav ul li.sobrenos").click(function () {
-        const destino = $("section.sobre");
-        $("html").animate({
-            scrollTop: destino.offset().top
-        }, 500)
-    })
-
-    $("nav ul li.comofunciona").click(function () {
-        const destino = $("section.comoFunciona");
-        $("html").animate({
-            scrollTop: destino.offset().top
-        }, 500)
-    })
-
-    $("nav ul li.duvidas").click(function () {
-        const destino = $("section.section-duvidas");
-        $("html").animate({
-            scrollTop: destino.offset().top
-        }, 500)
-    })
-
-    $("nav ul li.contato").click(function () {
-        const destino = $("section.section-contato");
-        $("html").animate({
-            scrollTop: destino.offset().top
-        }, 500)
-    })
-
     /* SEÇÃO DÚVIDAS */
 
     function mostrarResposta(elementoResposta) {
@@ -80,7 +50,7 @@ $(document).ready(function () {
 
     /* SEÇÃO SOBRE NÓS */
 
-    $("button.estou-interessado").click(function () {
+    $("button.button-contato").click(function () {
         const destino = $(".form");
         $("html").animate({
             scrollTop: destino.offset().top
