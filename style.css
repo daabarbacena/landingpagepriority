@@ -159,7 +159,7 @@ section.comoFunciona {
 }
 
 .container-comoFunciona-caixas {
-    width: 23em;
+    width: 21em;
     height: 2.4em;
     background: linear-gradient(344deg, #13583C 0%, #13581e 50%);
     box-shadow: 4px 6px 14px #00000036;
@@ -174,10 +174,14 @@ section.comoFunciona {
     box-shadow: #474B4F 5px 10px 50px, #474B4F -5px 0px 250px;
 }
 
+.container-comoFunciona-caixas h2 {
+    color: #fff;
+}
+
 .container-caixas {
     display: flex;
     flex-direction: column;
-    height: 15em;
+    height: 35vh;
 }
 
 .img-justica {
@@ -263,7 +267,6 @@ section.comoFunciona {
 
 .textos-imagem-pb hr {
     margin: 0;
-    margin-top: 0;
 }
 
 /* SECTION DUVIDAS */
@@ -301,7 +304,7 @@ section.comoFunciona {
 .container-servicos {
     display: flex;
     flex-direction: column;
-    width: 30em;
+    width: 100%;
     height: 10em;
 }
 
@@ -387,27 +390,30 @@ section.comoFunciona {
     background-color: #222629;
     border-radius: 0.4vh;
     height: 60vh;
-    padding: 2vw;
-    width: 25vw;
+    padding: 2em;
+    width: 50%;
     margin: auto;
     margin-top: 10vh;
 }
 
 .input-container {
-    height: 3vw;
-    max-width: 40vw;
+    height: 5vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .ic1 {
-    margin-top: 1vw;
+    margin-top: 1vh;
 }
 
 .ic2 {
-    margin-top: 1.8vw;
+    margin-top: 5vh;
 }
 
 .ic3 {
     position: relative;
+    margin-top: 5vh;
 }
 
 .input {
@@ -435,10 +441,10 @@ section.comoFunciona {
     box-sizing: border-box;
     color: #eee;
     cursor: pointer;
-    font-size: 1.3vw;
+    font-size: 1.3em;
     font-weight: 700;
-    height: 4vw;
-    margin-top: 1vw;
+    height: 6vh;
+    margin-top: 7vh;
     text-align: center;
     width: 100%;
 }
@@ -473,24 +479,35 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #1a1a1a;
-    height: 40vh;
+    height: 50vh;
 }
 
 .container-footer {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .container-footer img {
     width: 10em;
     cursor: pointer;
+    margin: auto;
 }
 
-footer h2 {
-    color: whitesmoke;
-    font-size: 0.8vw;
-    font-weight: 600;
-    margin-left: 2vw;
+.container-footer a {
+    margin: auto;
+}
+
+.container-footer h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.footer-texto h2 {
+    color: #fff;
+    font-size: 1em;
 }
 
 /* THANK YOU PAGE */
@@ -542,6 +559,472 @@ section.obrigadosection {
 
 /* Medias querys */
 
-@media screen and (max-width: 640px) {}
+@media screen and (max-width: 640px) {
 
-@media screen and (min-width: 641px) and (max-width: 1023px) {}
+    html {
+        overflow-x: hidden;
+    }
+
+    section.sobre {
+        height: 130vh;
+    }
+
+    .container-logo img {
+        width: 12em;
+        margin-top: 1.8vh;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    .container-sobre {
+        margin-top: 5vh;
+    }
+
+    .container-sobre h1 {
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .container-sobre h3 {
+        font-size: 1.3em;
+        font-weight: 500;
+        width: 90%;
+        margin-top: 7vh;
+    }
+
+    button {
+        margin-top: 7vh;
+    }
+
+    section.comoFunciona {
+        background-image: url();
+        max-width: 100%;
+        height: 350vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+    }
+
+    .container-comoFunciona, .container-comoFunciona-2 {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-comoFunciona-caixas {
+        width: 20em;
+        height: 2.4em;
+        background: linear-gradient(344deg, #13583C 0%, #13581e 50%);
+        box-shadow: 4px 6px 14px #00000036;
+        padding: 1vh;
+        transition: all .3s;
+        text-align: center;
+        border-radius: 8px;
+        display: flex;
+        margin: 0;
+    }
+
+    .container-comoFunciona-caixas h2 {
+        color: #fff;
+    }
+
+    .container-caixas {
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        margin: auto;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .img-anmiba img {
+        width: 2.5em;
+        height: auto;
+        margin: auto;
+        margin-left: 19em;
+    }
+
+    .imagem-priority img {
+        width: 13em;
+        margin: 0;
+        margin-top: 20vh;
+    }
+
+    .container-caixas ul {
+        color: #000;
+        list-style-type: disc;
+        margin-top: 1vh;
+        width: 70%;
+        padding: 0;
+        margin: 0;
+        margin-top: 3vh;
+    }
+
+    .container-caixas ul li {
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-top: 1vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-ancord img {
+        width: 2.5em;
+        height: auto;
+        margin-left: 16em;
+    }
+
+    .textos-imagem-pb {
+        height: 35vh;
+        margin-top: 20vh;
+    }
+
+    .section-duvidas {
+        height: 350vh;
+        flex-direction: column;
+    }
+
+    .container-duvidas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-duvidas-titulo {
+        flex-direction: column;
+    }
+
+    .container-duvidas-titulo-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .container-duvidas h1 {
+        margin: auto;
+        text-align: center;
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+    }
+
+    .container-servicos {
+        width: 100%;
+        height: 35vh;
+        margin: auto;
+        margin-top: 10vh;
+    }
+
+    .container-servicos p {
+        width: 80%;
+    }
+
+    .section-contato {
+        height: 180vh;
+    }
+
+    .container-contato-titulo-textos h5 {
+        width: 90%;
+    }
+
+    .form {
+        background-color: #222629;
+        border-radius: 0.4vh;
+        height: 80vh;
+        padding: 2vh;
+        width: 90%;
+        margin: auto;
+        margin-top: 10vh;
+    }
+
+    .iLabel {
+        color: #65657b;
+        font-size: 1.5em;
+    }
+    
+
+    .input-container {
+        height: 8vh;
+        max-width: 80em;
+        margin-top: 5vh;
+    }
+
+    .submit {
+        background-color: #639e24;
+        border: 0;
+        border-radius: 1vh;
+        box-sizing: border-box;
+        color: #eee;
+        cursor: pointer;
+        font-size: 2.5vh;
+        font-weight: 700;
+        height: 7vh;
+        margin-top: 1vh;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer {
+        height: 85vh;
+    }
+
+    .container-footer img {
+        width: 10em;
+        cursor: pointer;
+        margin: auto;
+    }
+
+    .container-footer h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 530;
+    }
+
+    footer h2 {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 2vh;
+    }
+
+    .container-comoFunciona-3 {
+        display: none;
+    }
+
+    .container-comoFunciona-4 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    .container-logo img {
+        margin-left: 2em;
+    }
+
+    .header nav h2 {
+        font-size: 1.3em;
+    }
+
+    .container-sobre h1 {
+        width: 100%;
+    }
+
+    .container-sobre h3 {
+        font-size: 1.2em;
+        width: 80%;
+    }
+
+    section.comoFunciona {
+        background-image: none;
+        height: 160vh;
+    }
+
+    .container-comoFunciona-3 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1em;
+        margin: 0;
+        padding: 0;
+        padding-top: 0;
+        margin-top: 10vh;
+        margin-left: 0;
+    }
+
+    .container-comoFunciona, .container-comoFunciona-2 {
+        display: none;
+    }
+
+    .container-comoFunciona-caixas {
+        width: 18em;
+        height: 3em;
+    }
+
+    .container-comoFunciona-caixas h2 {
+        color: #fff;
+    }
+
+    .container-caixas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 45vh;
+        width: 100%;
+    }
+
+    .img-justica img {
+        width: 2.5em;
+        height: auto;
+        margin: 0;
+        margin-left: 9em;
+    }
+
+    .img-anmiba img {
+        width: 2.5em;
+        height: auto;
+        margin-left: 15em;
+    }
+
+    .img-ancord img {
+        width: 2.5em;
+        height: auto;
+        margin-left: 15em;
+    }
+
+    .container-caixas ul {
+        padding: 0;
+        padding-left: 2em;
+        margin: 0;
+        width: 70%;
+    }
+
+    .imagem-priority {
+        margin: auto;
+    }
+
+    .textos-imagem-pb {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+
+    .textos-imagem-pb hr {
+        height: 28vh;
+    }
+
+    .section-duvidas {
+        height: 150vh;
+    }
+
+    .container-duvidas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .container-duvidas h1 {
+        font-size: 3em;
+        font-weight: 800;
+        margin: auto;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+        text-align: center;
+    }
+
+    .container-duvidas-titulo-2 {
+        margin-top: 30vh;
+    }
+
+    .container-servicos p {
+        font-size: 1.3em;
+        width: 80%;
+    }
+
+    p.container-servicos-p {
+        font-size: 1.1em;
+    }
+
+    .container-servicos h2 {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-contato-titulo h5 {
+        font-size: 1.2em;
+    }
+
+    .section-contato {
+        height: 160vh;
+    }
+
+    .form {
+        height: 80vh;
+        padding: 0;
+        width: 90%;
+    }
+
+    .input-container {
+        height: 8vh;
+        max-width: 95%;
+        margin: auto;
+        margin-top: 5vh;
+    }
+
+    .iLabel {
+        color: #65657b;
+        font-size: 1.7em;
+    }
+
+    .ic3 {
+        position: relative;
+    }
+
+    .submit {
+        font-size: 2.5vh;
+        font-weight: 700;
+        height: 7vh;
+        margin-top: 1vh;
+        width: 95%;
+        margin: auto;
+    }
+
+    footer {
+        height: 80vh;
+    }
+
+    .footer-texto {
+        width: 100%;
+    }
+
+    .footer-texto h2 {
+        color: #fff;
+        font-size: 1.7vh;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-comoFunciona-4 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container-comoFunciona-3, .container-comoFunciona-2, .container-comoFunciona {
+        display: none;
+    }
+
+    .container-comoFunciona-4 {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 4em;
+        margin: 0;
+        padding: 2em;
+        padding-top: 0;
+        margin-top: 5vh;
+        margin-left: 2em;
+        height: 0.1vh;
+        justify-items: start;
+        justify-content: start;
+        align-items: center;
+    }
+
+}
