@@ -479,7 +479,11 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #1a1a1a;
+<<<<<<< HEAD
     height: 50vh;
+=======
+    height: 80vh;
+>>>>>>> b82f40d4ce5aa8a1921e52dbdbd6dae3f83f627c
 }
 
 .container-footer {
@@ -492,6 +496,20 @@ footer {
     width: 10em;
     cursor: pointer;
     margin: auto;
+<<<<<<< HEAD
+=======
+}
+
+.container-footer a {
+    margin: auto;
+}
+
+.container-footer h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+>>>>>>> b82f40d4ce5aa8a1921e52dbdbd6dae3f83f627c
 }
 
 .container-footer a {
@@ -561,6 +579,7 @@ section.obrigadosection {
 
 @media screen and (max-width: 640px) {
 
+<<<<<<< HEAD
     html {
         overflow-x: hidden;
     }
@@ -806,11 +825,15 @@ section.obrigadosection {
     .container-comoFunciona-4 {
         display: none;
     }
+=======
+
+>>>>>>> b82f40d4ce5aa8a1921e52dbdbd6dae3f83f627c
 
 }
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
 
+<<<<<<< HEAD
     .container-logo img {
         margin-left: 2em;
     }
@@ -1028,3 +1051,8 @@ section.obrigadosection {
     }
 
 }
+=======
+    
+
+}
+>>>>>>> b82f40d4ce5aa8a1921e52dbdbd6dae3f83f627c
