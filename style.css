@@ -1,4 +1,8 @@
 /* RESET DO BODY E DECLARAÇÃO DE FONTE */
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Proxima Nova Cn Lt';
     font-optical-sizing: auto;
@@ -15,10 +19,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 1.5s;
 }
 
 .container-logo img {
     width: 8em;
+    transition: 1.5s;
 }
 
 .header nav {
@@ -88,6 +94,7 @@ section.sobre {
     justify-content: center;
     align-items: center;
     margin-top: 5em;
+    transition: 1.5s;
 }
 
 .container-sobre h1 {
@@ -458,19 +465,6 @@ section.comoFunciona {
     background-color: #89cf3e;
 }
 
-.contatos-obrigado-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 18vw;
-    margin-top: 5vw;
-}
-
-.contatos-obrigado-container button {
-    background-color: #639e24;
-    width: fit-content;
-    grid-column: 2;
-}
-
 /* FOOTER */
 
 footer {
@@ -508,53 +502,6 @@ footer {
 .footer-texto h2 {
     color: #fff;
     font-size: 1em;
-}
-
-/* THANK YOU PAGE */
-
-section.obrigadosection {
-    height: 100vh;
-    background: #020202;
-    background: -webkit-linear-gradient(310deg, #020202 0%, #272727 100%);
-    background: linear-gradient(310deg, #020202 0%, #272727 100%);
-}
-
-.obrigado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 0;
-}
-
-.obrigado img {
-    width: 5vw;
-    margin: auto;
-    margin-bottom: 0;
-    margin-top: 10vh;
-}
-
-.obrigado h2 {
-    color: #fff;
-    font-size: 3vw;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.obrigado h4 {
-    color: #fff;
-    font-size: 1.7vw;
-    font-weight: 500;
-    text-align: center;
-    width: 60%;
-    margin-top: 0;
-}
-
-.contatos-obrigado-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 /* Medias querys */
@@ -753,7 +700,6 @@ section.obrigadosection {
         font-size: 1.5em;
     }
     
-
     .input-container {
         height: 8vh;
         max-width: 80em;
@@ -1025,6 +971,69 @@ section.obrigadosection {
         justify-items: start;
         justify-content: start;
         align-items: center;
+    }
+
+}
+
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    section.sobre {
+        height: 200vh;
+    }
+
+    section.comoFunciona {
+        height: 280vh;
+    }
+
+    .container-caixas {
+        height: 80vh;
+    }
+
+    .section-duvidas {
+        height: 270vh;
+    }
+
+    .container-servicos {
+        height: 70vh;
+    }
+
+    .section-contato {
+        height: 280vh;
+    }
+
+    .form {
+        height: 130vh;
+        width: 60%;
+    }
+
+    .input-container {
+        height: 13vh;
+        max-width: 90%;
+        margin-top: 5vh;
+    }
+
+    .submit {
+        font-size: 1em;
+        font-weight: 600;
+        height: 10vh;
+        margin-top: 7vh;
+        width: 90%;
+    }
+
+    .ic2 {
+        margin-top: 10vh;
+    }
+
+    footer {
+        height: 125vh;
+    }
+
+    .footer-texto h2 {
+        font-size: 4vh;
     }
 
 }
